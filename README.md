@@ -45,8 +45,17 @@
   ![ReactApp-Chrome2024-03-2214-55-56-ezgif com-crop](https://github.com/JeonWoongchan/weatherLife/assets/124865284/20c78398-ae64-4a27-b6c8-4f9e490ddcac)
 
 
+3. 날씨에 맞는 팁
 
+   ![ReactApp-Chrome2024-03-2215-10-07-ezgif com-crop](https://github.com/JeonWoongchan/weatherLife/assets/124865284/07eecead-37c0-4a41-bad0-340b2309651e)
 
+4. 축제 정보
+
+   ![ReactApp-Chrome2024-03-2215-29-29-ezgif com-crop](https://github.com/JeonWoongchan/weatherLife/assets/124865284/3fcec107-e741-4641-be09-edf7f135af62)
+
+5. 계절 음악 추천
+
+   ![ReactApp-Chrome2024-03-2215-32-00-ezgif com-crop](https://github.com/JeonWoongchan/weatherLife/assets/124865284/9a93fd3c-d528-4328-a0df-c8c6900d6bc8)
 
 
 
