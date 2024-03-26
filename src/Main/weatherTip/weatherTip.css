@@ -1,0 +1,85 @@
+.weather-tip-section {
+    width: 1280px;
+    text-align: center;
+}
+
+.tip-category-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tip-category {
+    
+}
+
+.tip-category-btn {
+    position: relative;
+    background-color: transparent;
+    outline: 1px solid var(--color-accent);
+    border-radius: 5px;
+    padding: 0.5rem 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: var(--color-text);
+    cursor: pointer;
+    white-space: nowrap;    
+    transition: scale .5s ease;
+}
+
+.tip-category-btn:hover {
+    scale: 1.05;
+    background-color: var(--color-accent);
+    color: white;
+}
+
+.tip-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.tip {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    transition: scale 0.5s ease;
+    cursor: pointer;
+    background-color: azure;
+}
+
+.tip-list .mini:hover {
+    scale: 1.05;
+}
+
+.tip .images {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.tip-image { 
+    width: 380px;
+    height: 240px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 0.7;
+}
+
+.tip-inner {
+    padding: 0 15px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.tip-title {
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+

@@ -1,0 +1,29 @@
+.snow-container {
+    position: relative;
+    top: -560px;
+    height: 560px;
+    z-index: -1;
+}
+
+.snow-container .snow {
+    color: white;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+}
+
+.rain-container {
+    position: relative;
+    top: -560px;
+    height: 560px;
+    z-index: -1;
+}
+
+.rain-container .raindrop {
+    color: white;
+    position: absolute;
+    background: white;
+    width: 15px;
+    height: 1px;
+    transform: rotate(75deg);
+}

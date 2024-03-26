@@ -1,0 +1,70 @@
+{
+    "tip": [
+        {
+            "id": 1,
+            "category": "봄",
+            "title": "봄철 미세먼지 대비",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "여름",
+            "title": "물놀이 주의사항",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "여름",
+            "title": "열대야 대처법",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "가을",
+            "title": "가을 환절기 주의사항",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "겨울",
+            "title": "겨울철 실내온도",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "겨울",
+            "title": "건조한 집안 해결법",
+            "detail": "",
+            "image": [
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg",
+                "/images/tip/mask.jpg"
+            ]
+        }
+    ]
+}

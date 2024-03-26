@@ -1,0 +1,206 @@
+.main-weather-container {
+    position: relative;
+    padding: 50px 0 30px;
+    height: 560px;
+    top: 0;
+    z-index: 1;
+}
+
+.main-weather-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7; 
+    z-index: -1; 
+}
+
+.main-weather {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-weather-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 110px auto 0 auto;
+    width: 960px;
+    padding: 60px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}   
+
+.main-weather-inner .local-name {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.weather-title {
+    display: flex;
+}
+
+.weather-title-image {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-title .weather {
+    margin-left: 12px;
+}
+
+.weather-title .weather-info {
+    margin-left: 10px;
+}
+
+.weather-title .weather .temperature {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.weather-detail {
+    display: flex;
+    margin-left: 50px;
+    align-items: flex-end;
+    width: 250px;
+    /* border-bottom: #414141 solid 1px; */
+}
+/* 
+.weather-detail::before {
+    float: left;
+    content: '';
+    width: 2px;
+    height: 70px;
+    margin-right: 7px;
+    background-color: #888888;
+} */
+
+.weather-detail .detail-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.weather-data, .sun-data {
+    display: flex;
+    gap: 7px;
+}
+
+.sun-data-img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.weather-detail .detail-inner .data {
+    color: #414141;
+}
+
+.weather-detail .detail-inner .data-span {
+    color: #000000;
+    font-weight: bold;
+}
+
+.air-info {
+    position: absolute;
+    right: 30px;   
+    bottom: 60px;
+}
+
+.air-info-inner {
+    display: flex;
+    text-align: center;
+}
+
+.air-info-inner li {
+    width: calc(99.9% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 0 15px;
+    min-width: 100px
+}
+
+.air-info-data {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.air-info-data .circular {
+    width: 100px;
+}
+
+.air-info-data .data-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50px;
+}
+
+.data-text .level {
+    font-size: 1.2rem;
+}
+
+.data-text .unit {
+
+}
+
+.air-info-title {
+    font-size: 16px;
+}
+
+.air-info-level {
+    
+}
+
+@media screen and (max-width: 960px) {
+    .main-weather-inner {
+        width: 650px;
+    }
+
+    .weather-detail {
+        display: none
+    }
+
+    .air-info-data .circular {
+        width: 60px;
+    }
+    
+    .air-info-data .data-text{
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50px;
+    }
+    
+    .data-text .level {
+        font-size: 1rem;
+    }
+
+    .data-text .unit {
+        font-size: 0.7rem;
+    }
+    
+    .air-info-title {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .main-weather-inner {
+        min-width: 550px;
+    }
+    .main-weather-inner {
+        width: 100vw;
+    }
+}

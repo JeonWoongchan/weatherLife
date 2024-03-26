@@ -1,0 +1,184 @@
+{
+    "music": {
+        "spring": [
+            {
+                "id": 0,
+                "title": "벚꽃엔딩",
+                "artist": "unknown",
+                "detail": "봄만 오면 생각나는 노래는 역시 '벚꽃연금' 벚꽃엔딩",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 1,
+                "title": "봄의 노래 2",
+                "artist": "unknown",
+                "detail": "봄의 감성을 담은 노래",
+                "image": "/images/spring2.jpg"
+            },
+            {
+                "id": 2,
+                "title": "봄의 노래 3",
+                "artist": "unknown",
+                "detail": "봄의 아름다움을 노래하는 곡",
+                "image": "/images/spring3.jpg"
+            },
+            {
+                "id": 3,
+                "title": "봄의 노래 4",
+                "artist": "unknown",
+                "detail": "봄이 가져다주는 설렘 가득한 노래",
+                "image": "/images/spring4.jpg"
+            }
+        ],
+        "summer": [
+            {
+                "id": 4,
+                "title": "여름 노래 1",
+                "artist": "unknown",
+                "detail": "여름을 느낄 수 있는 멋진 노래",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 5,
+                "title": "여름 노래 2",
+                "artist": "unknown",
+                "detail": "시원한 바다 바람을 담은 노래",
+                "image": "/images/summer2.jpg"
+            },
+            {
+                "id": 6,
+                "title": "여름 노래 3",
+                "artist": "unknown",
+                "detail": "여름의 뜨거운 열기를 노래하는 곡",
+                "image": "/images/summer3.jpg"
+            },
+            {
+                "id": 7,
+                "title": "여름 노래 4",
+                "artist": "unknown",
+                "detail": "여름 밤의 로맨스를 담은 노래",
+                "image": "/images/summer4.jpg"
+            }
+        ],
+        "fall": [
+            {
+                "id": 8,
+                "title": "가을 노래 1",
+                "artist": "unknown",
+                "detail": "단풍이 아름답게 물들어가는 가을 노래",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 9,
+                "title": "가을 노래 2",
+                "artist": "unknown",
+                "detail": "가을 감성이 담긴 고요한 노래",
+                "image": "/images/fall2.jpg"
+            },
+            {
+                "id": 10,
+                "title": "가을 노래 3",
+                "artist": "unknown",
+                "detail": "가을 햇살 아래 떠나는 여행을 노래한 곡",
+                "image": "/images/fall3.jpg"
+            },
+            {
+                "id": 11,
+                "title": "가을 노래 4",
+                "artist": "unknown",
+                "detail": "가을의 정취를 담은 노래",
+                "image": "/images/fall4.jpg"
+            }
+        ],
+        "winter": [
+            {
+                "id": 12,
+                "title": "겨울 노래 1",
+                "artist": "unknown",
+                "detail": "눈이 내리는 풍경을 담은 따뜻한 겨울 노래",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 13,
+                "title": "겨울 노래 2",
+                "artist": "unknown",
+                "detail": "크리스마스 분위기를 전하는 겨울 노래",
+                "image": "/images/winter2.jpg"
+            },
+            {
+                "id": 14,
+                "title": "겨울 노래 3",
+                "artist": "unknown",
+                "detail": "한겨울의 따뜻한 노래",
+                "image": "/images/winter3.jpg"
+            },
+            {
+                "id": 15,
+                "title": "겨울 노래 4",
+                "artist": "unknown",
+                "detail": "겨울 밤의 감미로움을 노래한 곡",
+                "image": "/images/winter4.jpg"
+            }
+        ],
+        "rainy": [
+            {
+                "id": 16,
+                "title": "비오는 날 노래 1",
+                "artist": "unknown",
+                "detail": "비가 오는 날에 어울리는 감성적인 노래",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 17,
+                "title": "비오는 날 노래 2",
+                "artist": "unknown",
+                "detail": "우중충한 날씨에 어울리는 노래",
+                "image": "/images/rainy2.jpg"
+            },
+            {
+                "id": 18,
+                "title": "비오는 날 노래 3",
+                "artist": "unknown",
+                "detail": "비소리와 함께 즐기는 음악",
+                "image": "/images/rainy3.jpg"
+            },
+            {
+                "id": 19,
+                "title": "비오는 날 노래 4",
+                "artist": "unknown",
+                "detail": "비 오는 날의 우울한 감성을 노래한 곡",
+                "image": "/images/rainy4.jpg"
+            }
+        ],
+        "snowy": [
+            {
+                "id": 20,
+                "title": "눈오는 날 노래 1",
+                "artist": "unknown",
+                "detail": "눈이 내리는 풍경을 담은 아름다운 노래",
+                "image": "/images/clearSky.jpg"
+            },
+            {
+                "id": 21,
+                "title": "눈오는 날 노래 2",
+                "artist": "unknown",
+                "detail": "첫눈의 설레임을 전하는 노래",
+                "image": "/images/snowy2.jpg"
+            },
+            {
+                "id": 22,
+                "title": "눈오는 날 노래 3",
+                "artist": "unknown",
+                "detail": "눈 내리는 날의 평화로운 분위기를 노래한 곡",
+                "image": "/images/snowy3.jpg"
+            },
+            {
+                "id": 23,
+                "title": "눈오는 날 노래 4",
+                "artist": "unknown",
+                "detail": "첫눈의 설렘을 담은 노래",
+                "image": "/images/snowy4.jpg"
+            }
+        ]
+    }
+}

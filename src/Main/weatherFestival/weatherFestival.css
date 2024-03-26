@@ -1,0 +1,220 @@
+.weather-festival-section {
+    text-align: center;
+    position: relative;
+}
+
+.weather-festival-section .title {
+    transition: transform 1s ease;
+}
+
+.festival-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.festival-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.festival-inner .more-text {
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.festival-inner .more-view-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.05);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: var(--color-gray);
+    margin: 20px auto 0;    
+}
+
+.weather-festival-section .more-view {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    color: white;
+}
+
+.weather-festival-section .more-view-btn::before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    animation: Circleanimation 3s infinite linear;
+}
+
+.weather-festival-section .more-view-btn::after {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    animation: Circleanimation 1.5s infinite linear;
+}
+
+@keyframes Circleanimation {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes Circleanimation2 {
+    0% {
+        transform: scale(0);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}
+
+.weather-festival-section .open  {
+    z-index: 5;
+}
+
+.festival-list {
+    width: 400px;
+    transition: all 0.5s ease;
+}
+
+.festival {
+    position: relative;
+    height: 350px;
+    padding: 10px 0; 
+}
+
+.festival-slide-container {
+    position: relative;
+    height: 350px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    outline: 2px solid black;
+    z-index: 3;
+    box-shadow: 0px 4px 16px rgba(17,17,26,0.1), 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1);
+}
+
+.festival-slide {
+    display: flex;
+    border-radius: 0.2rem;
+    height: 100%;
+}
+
+.festival-content {
+    background-color: white;
+    height: 350px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.festival-img {
+    width: 100%;
+    height: 100%;
+}
+
+.festival-slide-container .prev{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 50%;
+    left: 1%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.festival-slide-container .next{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 50%;
+    right: 1%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.festival-slide-container .prev-icon{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 1%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.festival-slide-container .next-icon{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    right: 1%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.auto-slide-btn {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 60px;
+    height: 24px;
+    top: 315px;
+    right: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.auto-slide-btn:hover {
+    scale: 1.1;
+}
+
+.festival-slide-container .close {
+    position: absolute;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 60px;
+    height: 24px;
+    top: 315px;
+    right: 70px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.festival-slide-container .close:hover {
+    scale: 1.1;
+}
+
+@media (max-width:950px) {
+    .festival-container {
+        flex-direction: column;
+    }
+
+    .festival-list {
+        margin: 0 auto;
+    }
+
+    .weather-festival-section .title {
+        
+    }
+}
