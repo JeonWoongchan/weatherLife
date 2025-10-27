@@ -8,8 +8,6 @@
 
 ⛏ 기술 스택
   - React
-  - Spring
-  - MySQL
   - 기상청 Open API
 
 ## 배운점
